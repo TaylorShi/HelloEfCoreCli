@@ -5,23 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaOrder.EFSqliteConsole", "TeslaOrder.EFSqliteConsole\TeslaOrder.EFSqliteConsole.csproj", "{142ECD78-FF1F-4DC8-8FD6-1D417FAD1F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.ConnectionStringConsole", "TeslaOrder.ConnectionStringConsole\TeslaOrder.ConnectionStringConsole.csproj", "{E6DB24E0-1A66-41BF-AAD4-30880DE78987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaOrder.Domain", "TeslaOrder.Domain\TeslaOrder.Domain.csproj", "{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.EFConfigConsole", "TeslaOrder.EFConfigConsole\TeslaOrder.EFConfigConsole.csproj", "{6487B35F-F2B1-4B42-94FA-4B8131450657}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.Domain", "TeslaOrder.Domain\TeslaOrder.Domain.csproj", "{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.EFSqliteProtectedConsole", "TeslaOrder.EFSqliteProtectedConsole\TeslaOrder.EFSqliteProtectedConsole.csproj", "{7FF588DE-60E9-4D37-A7F2-9A7076935FE1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.Infrastructure", "TeslaOrder.Infrastructure\TeslaOrder.Infrastructure.csproj", "{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaOrder.Infrastructure", "TeslaOrder.Infrastructure\TeslaOrder.Infrastructure.csproj", "{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2DD8F75F-C171-4CC4-86B9-CCE97D2E9C29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{BDCC7EE6-4AEB-45C1-9425-A2038A75162B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLServer", "SQLServer", "{C8CC07A3-B70D-4EA3-B983-1F01D271CE5D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaOrder.EFSqlServerConsole", "TeslaOrder.EFSqlServerConsole\TeslaOrder.EFSqlServerConsole.csproj", "{B2855574-4C78-42BC-BC92-A0ADB2FB53F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,42 +23,22 @@ Global
 		{142ECD78-FF1F-4DC8-8FD6-1D417FAD1F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142ECD78-FF1F-4DC8-8FD6-1D417FAD1F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{142ECD78-FF1F-4DC8-8FD6-1D417FAD1F35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6DB24E0-1A66-41BF-AAD4-30880DE78987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6DB24E0-1A66-41BF-AAD4-30880DE78987}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6DB24E0-1A66-41BF-AAD4-30880DE78987}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6DB24E0-1A66-41BF-AAD4-30880DE78987}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6487B35F-F2B1-4B42-94FA-4B8131450657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6487B35F-F2B1-4B42-94FA-4B8131450657}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6487B35F-F2B1-4B42-94FA-4B8131450657}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6487B35F-F2B1-4B42-94FA-4B8131450657}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FF588DE-60E9-4D37-A7F2-9A7076935FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FF588DE-60E9-4D37-A7F2-9A7076935FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FF588DE-60E9-4D37-A7F2-9A7076935FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FF588DE-60E9-4D37-A7F2-9A7076935FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2855574-4C78-42BC-BC92-A0ADB2FB53F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2855574-4C78-42BC-BC92-A0ADB2FB53F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2855574-4C78-42BC-BC92-A0ADB2FB53F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2855574-4C78-42BC-BC92-A0ADB2FB53F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{142ECD78-FF1F-4DC8-8FD6-1D417FAD1F35} = {BDCC7EE6-4AEB-45C1-9425-A2038A75162B}
-		{E6DB24E0-1A66-41BF-AAD4-30880DE78987} = {C8CC07A3-B70D-4EA3-B983-1F01D271CE5D}
-		{6487B35F-F2B1-4B42-94FA-4B8131450657} = {C8CC07A3-B70D-4EA3-B983-1F01D271CE5D}
 		{CD2FD752-3D61-4A1E-86F1-67FDBF61E09F} = {2DD8F75F-C171-4CC4-86B9-CCE97D2E9C29}
-		{7FF588DE-60E9-4D37-A7F2-9A7076935FE1} = {BDCC7EE6-4AEB-45C1-9425-A2038A75162B}
 		{F8423FDA-D677-4F9F-B70B-9B4C2699FB2B} = {2DD8F75F-C171-4CC4-86B9-CCE97D2E9C29}
-		{B2855574-4C78-42BC-BC92-A0ADB2FB53F1} = {C8CC07A3-B70D-4EA3-B983-1F01D271CE5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02344C64-C30F-4576-81E2-397296BD0D6C}

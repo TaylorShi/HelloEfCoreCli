@@ -27,7 +27,7 @@ namespace TeslaOrder.EFSqliteConsole
 
                 var blog = new Blog
                 {
-                    BlogId = new Random(16839191).Next(),
+                    BlogId = new Random(9999999).Next(),
                     Url = "https://www.cnblogs.com/taylorshi/p/16843914.html"
                 };
                 context.Add(blog);
